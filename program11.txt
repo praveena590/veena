@@ -1,6 +1,7 @@
    PROGRAM 4
 
 import java.util.Scanner;
+import java.util.Formatter;
 class Fifth
 {
   public static void main(String[] args)
@@ -11,21 +12,21 @@ class Fifth
    {
     String s=sc.next();
     int x=sc.nextInt();
-     System.out.println(""+s+"    "+x+"");
+    String r=String.format("%03d",x);
+     System.out.println(""+s+"    "+r+"");
     }
     System.out.println("==================");
   }
 } 
+OUTPUT:
+C:\Users\jyothi prakash\OneDrive\Desktop\programspravi\veena>javac Fifth.java
 
-
-C:\Users\LENOVO\Desktop\praveena590>javac Fifth.java
-
-C:\Users\LENOVO\Desktop\praveena590>java Fifth
+C:\Users\jyothi prakash\OneDrive\Desktop\programspravi\veena>java Fifth
 ==================
-java 100 cpp 65  python 50
-java    100
-cpp    65
-python    50
+java 4 cpp 86 python 64
+java    004
+cpp    086
+python    064
 ==================
   
 
