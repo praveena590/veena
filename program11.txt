@@ -1,0 +1,77 @@
+   PROGRAM 4
+
+import java.util.Scanner;
+class Fifth
+{
+  public static void main(String[] args)
+  {
+   Scanner sc=new Scanner(System.in);
+    System.out.println("==================");
+   for(int i=0;i<3;i++)
+   {
+    String s=sc.next();
+    int x=sc.nextInt();
+     System.out.println(""+s+"    "+x+"");
+    }
+    System.out.println("==================");
+  }
+} 
+
+
+C:\Users\LENOVO\Desktop\praveena590>javac Fifth.java
+
+C:\Users\LENOVO\Desktop\praveena590>java Fifth
+==================
+java 100 cpp 65  python 50
+java    100
+cpp    65
+python    50
+==================
+  
+
+    PROGRAM 2
+
+import java.util.Scanner;
+class Fourth
+{
+ public static void main(String[] args)
+{
+  Scanner sc=new Scanner(System.in);
+    System.out.println("enter the number");
+     int n=sc.nextInt();
+  if(n%2==0)
+    {
+     if(n<2&&n<6)
+      {
+     System.out.println("not weird");
+     }
+     else
+      {
+      if(n>6&&n<20)
+      {
+      System.out.println("weird");
+      }
+      else
+     {
+     if(n>20)
+     {
+     System.out.println("not weird");
+    }
+  else
+   {
+    System.out.println("weird");
+   }
+   }
+  }
+ }
+}
+}
+
+OUTPUT
+
+C:\Users\LENOVO\Desktop\praveena590>javac Fourth.java
+
+C:\Users\LENOVO\Desktop\praveena590>java Fourth
+enter the number
+8
+weird
