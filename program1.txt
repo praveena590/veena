@@ -1,0 +1,81 @@
+    PROGRAM  3
+
+class Second
+{
+   int num;
+  double number;
+  String word;
+  Second()
+  {
+    this.num=num;
+    this.number=number;
+    this.word=word;
+  }
+public static void main(String[] arg)
+{
+  Second s=new Second();
+  s.num=42;
+  s.number=3.1415;
+  s.word="Happy Learning...!";
+ System.out.println("String : "+s.word);
+ System.out.println("Double : "+s.number);
+ System.out.println("Int : "+s.num);
+}
+}
+  output:
+C:\Users\jyothi prakash\Desktop\praveena90>javac Second.java
+
+C:\Users\jyothi prakash\Desktop\praveena90>java Second
+String : Happy Learning...!
+Double : 3.1415
+Int : 42
+
+  PROGRAM 5
+class Fifth
+{
+  public static void main(String[] args)
+{
+int N=2;
+int i=1;
+int result;
+ while(i<=10)
+{
+  result=N*i;
+ System.out.println("2*"+i+" ="+result);
+i=i+1;
+}
+}
+}
+ OUTPUT:
+ C:\Users\jyothi prakash\Desktop\praveena90>javac Fifth.java
+
+C:\Users\jyothi prakash\Desktop\praveena90>java Fifth
+2*1 =2
+2*2 =4
+2*3 =6
+2*4 =8
+2*5 =10
+2*6 =12
+2*7 =14
+2*8 =16
+2*9 =18
+2*10 =20
+
+PROGRAM  1
+  
+class First
+{
+   public static void main(String[] args)
+    {
+     System.out.println("Hello World!");
+     System.out.println("Hello Java!");
+   }
+}
+  OUTPUT:
+C:\Users\jyothi prakash\Desktop\praveena90>javac First.java
+
+C:\Users\jyothi prakash\Desktop\praveena90>java First
+Hello World!
+Hello Java!
+
+
