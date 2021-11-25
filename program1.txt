@@ -1,34 +1,31 @@
     PROGRAM  3
-
+import java.util.Scanner;
 class Second
 {
-   int num;
-  double number;
-  String word;
-  Second()
-  {
-    this.num=num;
-    this.number=number;
-    this.word=word;
-  }
-public static void main(String[] arg)
+public static void main(String[] args)
 {
-  Second s=new Second();
-  s.num=42;
-  s.number=3.1415;
-  s.word="Happy Learning...!";
- System.out.println("String : "+s.word);
- System.out.println("Double : "+s.number);
- System.out.println("Int : "+s.num);
+Scanner s=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the values");
+int num=s.nextInt();
+double number=s.nextDouble();
+String str=sc.next();
+System.out.println("String :"+str);
+System.out.println("double :"+number);
+System.out.println("integer :"+num);
 }
 }
   output:
 C:\Users\jyothi prakash\Desktop\praveena90>javac Second.java
 
 C:\Users\jyothi prakash\Desktop\praveena90>java Second
-String : Happy Learning...!
-Double : 3.1415
-Int : 42
+enter the values
+42
+3.1415
+HappyLearning....!
+String :HappyLearning....!
+double :3.1415
+integer :42
 
   PROGRAM 5
 import java.util.Scanner;
