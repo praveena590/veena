@@ -21,3 +21,12 @@ class Solution
    sc.close();
 }
 }
+   OUTPUT:
+  C:\Users\LENOVO\Desktop\praveena590>javac Solution.java
+
+C:\Users\LENOVO\Desktop\praveena590>java Solution
+2
+0 2 10
+2 6 14 30 62 126 254 510 1022 2046
+5 3 5
+8 14 26 50 98
