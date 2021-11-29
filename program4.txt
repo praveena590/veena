@@ -1,0 +1,35 @@
+PROGRAM ....
+
+import java.util.*;
+import java.io.*;
+class srting
+  {
+     public static void main(String[] args)
+       {
+         Scanner sc=new Scanner(System.in);
+         int n=sc.nextInt();
+         String s=Integer.toString(n);
+         if(n>=-100 && n<=100)
+          {
+             if(s.equals(Integer.toString(n)))
+               {
+                  System.out.println("Good job..!");
+                 }
+             }
+            else
+             System.out.println("Wrong Answer..!");
+          }
+      }
+
+OUTPUT:
+  C:\Users\jyothi prakash\OneDrive\Desktop\programspravi>javac srting.java
+
+C:\Users\jyothi prakash\OneDrive\Desktop\programspravi>java srting
+568
+Wrong Answer..!
+
+C:\Users\jyothi prakash\OneDrive\Desktop\programspravi>javac srting.java
+
+C:\Users\jyothi prakash\OneDrive\Desktop\programspravi>java srting
+54
+Good job..!
